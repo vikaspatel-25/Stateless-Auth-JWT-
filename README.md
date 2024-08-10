@@ -1,2 +1,2 @@
 # Stateless-Auth-JWT-
-Tech stack used: Html, Css, Js, Ejs (server side rendering template), Node.js, Express, MongoDb.
+Tech stack used: Html<br>Css<br>Js<br> Ejs (server side rendering template)<br>Node.js<br>Express<br>MongoDb.
