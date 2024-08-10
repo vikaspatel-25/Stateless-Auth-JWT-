@@ -19,13 +19,10 @@
  <div id="container" class="container">
     <div id="titleContainer" class="title-container" style="text-align: start;justify-content: start;">Hello,<br><%=username %> </div>
     <div id="loginContainer" class="login-container">
-        <span id="heading" class="heading">What is Stateful Authentication?<br></span>
+        <span id="heading" class="heading">What is Stateless Authentication?<br></span>
         <div id="textContainer" class="text-container">
-       <span >• It is an Authentication method in which server generates a session Id and store it into 
-        your browsers cookies.<br><br>• Then whenever you make a subsequent request browser sents those cookies with session
-        details, server checks the validity of those cookies with corresponding data it has stored in database or sever's in-memory
-        and let you access the requested page if your session is valid.(you can check this by refreshing this page)<br><br>• In this type of Authentication browser has to 
-        maintain your session details which is not recommended becuase on vast userbase it becomes difficult to manage those, in that case you can use Stateless Authentication. 
+       <span >•Stateless Authentication? as the name suggests , server does not kep state or track of your sessions.<br><br>• Once user is logged in, he has been provided with signed jwt token which contain his details,through which user can access 
+        the authorised content, this token is signed with a secret key because of which one cant generate duplicate token.<br><br>• Server verifies this token and authorises everytime user make a request. 
        </span>
        </div>  
     </div>
